@@ -1,0 +1,143 @@
+@import url("./responsividade_nav.css");
+@import url("./responsividade_index.css");
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@500;700&family=Righteous&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.nav_header li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.nav_header ul {
+    list-style: none;
+    padding: 15px;
+}
+
+.nav_header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    transition: all 0.6s;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 400;
+}
+
+.nav_header ul li a:hover {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.nav_header .logo {
+    padding-top: 10px;
+    padding-left: 25px;
+    height: 10vh;
+    padding-bottom: 2px;
+}
+
+/* ------------------------------------------------------------------ */
+
+section{
+    padding: 70px 17%;
+}
+
+.home{
+    padding-top: 150px;
+}
+
+.home, .agri, .ia, .cultivo{
+    margin-left: 60px;
+    width: 90%;
+    min-width: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.agri{
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.ia{
+    color: #3498db;
+}
+
+.cultivo{
+    background-color: #8e705d;
+}
+
+.home-img, .agri-img, .ia-img, .cultivo-img, img{
+    max-width: 100%;
+    height: auto;
+}
+
+.home-text, .agri-text, .ia-text, .cultivo-text, h2{
+    font-size: 1.5rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.home-text, .agri-text, .ia-text, .cultivo-text, p{
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.btn{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.5rem; 
+}
+
+.agri .btn{
+    background-color: #fff;
+    color: #2ecc71;
+}
+
+.ia .btn{
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* ------------------------------------------------------------------ */
+
+.footer_creater {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    width: 100vw;
+    position: relative;
+    bottom: -23px;
+    right: 30px;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
+}

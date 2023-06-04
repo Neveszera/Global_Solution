@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/nav.js"></script>
     <title>Home</title>
 </head>
 
@@ -12,55 +14,82 @@
     <header>
         <nav class="nav_header">
             <div class="logo">
-                <a href="i"><img class="l" alt=""></a>
+                <a href="./index.html"><img class="" alt=""></a>
+                <button class="nav_toggle" aria-expanded="false" aria-label="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
             <ul class="nav_menu">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="">Início</a></li>
+                <li><a href="">Agricultura Sustentável</a></li>
+                <li><a href="">IAs Generativas</a></li>
+                <li><a href="">Cultivos Eficientes</a></li>
+                <li><a href="">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-
-        <section>
-            <h2></h2>
-            <p></p>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h2>Nossa Iniciativa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores accusantium reprehenderit dolorum Lorem ipsum dolor sit amet, consectetur.
+                </p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+            <div class="home-img">
+                <figure>
+                    <img src="./img/download.jfif" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
         </section>
 
-        <section>
-            <h2></h2>
-            <p></p>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+        <section class="agri" id="agri">
+            <div class="agri-img">
+                <figure>
+                    <img src="./img/agricultura/Agricultura-Sustentável-.webp" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="agri-text">
+                <h2>Agricultura Sustentável: Preservando o Futuro através de Práticas Responsáveis</h2>
+                <p>Alimente o futuro com responsabilidade. Conheça práticas agrícolas que preservam o meio ambiente, promovem a conservação dos recursos naturais e garantem a segurança alimentar das gerações futuras.
+                </p>
+                <a href="./pages/agricultura_sustentavel.html" class="btn">Saiba Mais</a>
+            </div>
         </section>
 
-        <section>
-            <h2></h2>
-            <p></p>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+        <section class="ia" id="ia">
+            <div class="ia-text">
+                <h2>Inteligências Artificiais Generativas na Agricultura: Inovação Alimentando o Futuro</h2>
+                <p> Inovação criativa impulsionando a agricultura. Descubra como a IA está revolucionando a produção de alimentos, criando soluções inovadoras e promovendo o desenvolvimento sustentável do setor agrícola.
+                </p>
+                <a href="/pages/ia.html" class="btn">Saiba Mais</a>
+            </div>
+            <div class="ia-img">
+                <figure>
+                    <img src="./img/ia/Inteligencia-Artificial.jpg" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
         </section>
 
-        <section>
-            <h2></h2>
-            <p></p>
-            <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+        <section class="cultivo" id="cultivo">
+            <div class="cultivo-img">
+                <figure>
+                    <img src="./img/cultivos/cultura-da-soja.jpg" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="cultivo-text">
+                <h2>Modelos de Cultivo Eficientes: Maximizando Recursos e Produtividade Agrícola</h2>
+                <p>Maximizando recursos, aumentando a produtividade. Descubra modelos agrícolas inovadores que otimizam o uso de água, solo e energia, impulsionando a produção de alimentos de forma eficiente, sustentável e rentável.</p>
+                <a href="./pages/cultivos_eficientes.html" class="btn">Saiba Mais</a>
+            </div>
         </section>
-
     </main>
 
     <footer>
