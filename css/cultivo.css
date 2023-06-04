@@ -56,3 +56,75 @@ header {
 }
 
 /* ------------------------------------------------------------------ */
+
+section{
+    padding: 20px 17%;
+}
+
+.inicio{
+    padding-top: 200px;
+    margin-left: 60px;
+    width: 90%;
+    min-width: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+h2{
+    color: #8e705d;
+}
+
+.conteudo1, .conteudo2, .conteudo3, .conteudo4, .conteudo5{
+    margin-left: 60px;
+    width: 90%;
+    min-width: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;   
+}
+
+
+.conteudo6{
+    background-color: #8e705d;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 60px;
+    width: 90%;
+    min-width: 90vh;
+    align-items: center; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text h2{
+    font-size: 1.5rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.text p{
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+/* ------------------------------------------------------------------ */
+
+.footer_creater {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    width: 100vw;
+    position: relative;
+    bottom: -23px;
+    right: 30px;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 13px;
+}
