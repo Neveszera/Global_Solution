@@ -1,13 +1,15 @@
 @import url("./responsividade_nav.css");
-@import url("./responsividade_index.css");
 @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@500;700&family=Righteous&display=swap');
-
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 header {
     width: 100%;
@@ -20,6 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+
 }
 
 .nav_header li {
@@ -35,7 +38,7 @@ header {
 
 .nav_header ul li a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1em;
     color: black;
     position: relative;
     transition: all 0.6s;
@@ -44,14 +47,14 @@ header {
 }
 
 .nav_header ul li a:hover {
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 15px;
     border-radius: 15px;
 }
 
 .nav_header .logo {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 25px;
     height: 10vh;
     padding-bottom: 2px;
@@ -59,54 +62,67 @@ header {
 
 /* ------------------------------------------------------------------ */
 
-section{
-    padding: 70px 17%;
+section {
+    padding: 70px 5%;
 }
 
-.home{
+.home {
     padding-top: 150px;
 }
 
-.home, .agri, .ia, .cultivo{
-    margin-left: 60px;
-    width: 90%;
-    min-width: 90vh;
+.home,
+.agri,
+.ia,
+.cultivo {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
     align-items: center;
 }
 
-.agri{
+.agri {
     background-color: #2ecc71;
     color: #fff;
 }
 
-.ia{
+.ia {
     color: #3498db;
 }
 
-.cultivo{
+.cultivo {
     background-color: #8e705d;
 }
 
-.home-img, .agri-img, .ia-img, .cultivo-img, img{
+.home-img,
+.agri-img,
+.ia-img,
+.cultivo-img,
+img {
     max-width: 100%;
     height: auto;
 }
 
-.home-text, .agri-text, .ia-text, .cultivo-text, h2{
+.home-text,
+.agri-text,
+.ia-text,
+.cultivo-text,
+h2 {
     font-size: 1.5rem;
     font-family: 'Konkhmer Sleokchher', cursive;
 }
 
-.home-text, .agri-text, .ia-text, .cultivo-text, p{
+.home-text,
+.agri-text,
+.ia-text,
+.cultivo-text,
+p {
     font-size: 1rem;
     margin: 1rem 0 2rem;
     font-family: 'Konkhmer Sleokchher', cursive;
 }
 
-.btn{
+.btn {
     font-family: 'Konkhmer Sleokchher', cursive;
     text-decoration: none;
     font-size: 1rem;
@@ -114,15 +130,15 @@ section{
     padding: 10px 20px;
     background-color: black;
     color: #fff;
-    border-radius: 0.5rem; 
+    border-radius: 0.5rem;
 }
 
-.agri .btn{
+.agri .btn {
     background-color: #fff;
     color: #2ecc71;
 }
 
-.ia .btn{
+.ia .btn {
     background-color: #3498db;
     color: #fff;
 }
