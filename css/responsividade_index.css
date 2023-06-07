@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px) {
+
+    .home,
+    .agri,
+    .ia,
+    .cultivo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home,
+    .agri,
+    .ia,
+    .cultivo,
+    .agri-img,
+    .ia-img,
+    .cultivo-img,
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-text,
+    .agri-text,
+    .ia-text,
+    .cultivo-text,
+    h2,
+    p,
+    .btn {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .home,
+    .agri,
+    .ia,
+    .cultivo {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1.5rem;
+    }
+
+    .home-text,
+    .agri-text,
+    .ia-text,
+    .cultivo-text {
+        order: 1;
+    }
+
+    .home-img,
+    .agri-img,
+    .ia-img,
+    .cultivo-img {
+        order: 2;
+    }
+
+    .home-text,
+    .agri-text,
+    .ia-text,
+    .cultivo-text,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}

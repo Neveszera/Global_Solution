@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav_header">
+            <div class="imagem">
+                <a href="../index.html"><img class="logo" src="../img/logo_ShareThink.png" alt=""></a>
+                <button class="nav_toggle" aria-expanded="false" aria-label="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav_menu">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="./agricultura_sustentavel.html">Agricultura Sustentável</a></li>
+                <li><a href="./ia.html">IAs Generativas</a></li>
+                <li><a href="./cultivos_eficientes.html">Cultivos Eficientes</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contato_section">
+            <div class="contato_container">
+                <h2>CONTATE-NOS</h2>
+                <form class="contato_form" id="contato_form">
+                    <div class="form_group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form_group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome">
+                    </div>
+                    <div class="form_group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone">
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="form_group">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto">
+                    </div>
+                    <div class="form_group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                    </div>
+                    <div class="form_group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade">
+                    </div>
+                    <div class="form_group">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" name="estado">
+                    </div>
+                    <div class="form_group">
+                        <label for="newsletter">Deseja receber newsletter?</label>
+                        <select id="newsletter" name="newsletter">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                    <div class="form_group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_creater">
+            <p>Gabriel Neves - RM552244</p>
+            <p>Gabriel Sampaio - RM552342</p>
+            <p>Giovanna Alvarez - RM98892</p>
+            <p>Rafael Mendonça - RM552422</p>
+            <p>Renata Belila - RM552315</p>
+            <p><strong>copyright &copy;2023 Designer by: Os Remanescentes</strong></p>
+        </div>
+    </footer>
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/contato.js"></script>
+
+</body>
+
+</html>
