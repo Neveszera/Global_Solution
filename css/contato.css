@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -64,13 +68,71 @@ header {
 
 /* ------------------------------------------------------------------ */
 
+.contato_section {
+    margin-top: 80px;
+    padding: 50px 0;
+  }
+  
+  .contato_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
+  .contato_container h2{
+    text-align: center;
+    color:#1e0249;
+  }
+  
+  .contato_form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .form_group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #1e0249;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+  }
 
+  .error {
+    color: red;
+}
 
 /* ------------------------------------------------------------------ */
 
 .footer_creater {
-    margin-top: 30px;
     color: black;
     background-color: #fff;
     padding: 10px;
@@ -85,3 +147,15 @@ header {
     color:#1e0249;
 }
 
+@media (max-width: 480px) {
+    .nav_header .logo {
+        padding-top: 20px;
+        padding-left: 75px;
+        height: 10vh;
+    }
+
+    .nav_toggle{
+        top: 35px;
+      }
+  
+  }

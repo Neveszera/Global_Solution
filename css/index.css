@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
   }
 
-  header {
+header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -144,6 +144,7 @@ p {
     background-color: #3498db;
     color: #fff;
 }
+
 
 /* ------------------------------------------------------------------ */
 
